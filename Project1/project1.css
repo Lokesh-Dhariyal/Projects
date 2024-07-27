@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Poppins", sans-serif;
+}
+::selection{
+    color: rgb(106, 163, 255);
+    background-color: rgb(40, 40, 84);
+}
+.flex{
+    display: flex;
+    text-align: center;
+}
+
+.masterbtn{
+   background-color: rgb(65, 144, 204);
+   padding:12px 24px ;
+   border-radius: 8px;
+   border: 1px solid black;
+}
+.masterbtn:hover{
+    background-color: rgb(54, 121, 173);
+}
+.secondarybtn{
+    background-color: rgb(240, 240, 240);
+   padding:12px 24px ;
+   border-radius: 8px;
+   border: 1px solid black;
+}
+.secondarybtn:hover{
+    background-color: rgb(217, 217, 217);
+}
+
+.morebtn{
+    background-color: rgb(240, 240, 240);
+   padding:14px 28px ;
+   border-radius: 8px;
+   border: 1px solid black;
+}
+.morebtn:hover{
+    background-color: rgb(217, 217, 217);
+}
+
+
+
+/* Top Section */
+.top{
+    background-image: url(./Img/top3.jpg);
+    background-size: 150px;
+    color: rgb(54, 54, 54);
+    width: 98.9vw;
+    height: 50px;
+    text-align: center;
+    font-size:larger;
+    font-weight: 1000;
+}
+.top1{
+    background-color: rgba(149, 182, 239, 0.408);
+    position: relative;
+    top: 30%;
+}
+
+
+
+/* Nav Bar Section */
+.home{
+    margin: 40px auto;
+    font-size: large;
+    /* border: 1px solid black; */
+    width: 80vw;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.name{
+    text-decoration: none;
+    font-size: larger;
+    height: 30px;
+}
+.name img{
+    position: relative;
+    width: 30px;
+    float: left;
+    bottom: 25%;
+}
+.name1{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 1px 1px;
+}
+.name2{
+    background-color: yellow;
+    color: black;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.links{
+    justify-content: end;
+    gap: 20px;
+    flex-basis: 700px;
+    font-size: 1rem;
+}
+
+.home1{
+    cursor: pointer;
+    width: 65px;
+    height: 20px;
+    margin: 5px;
+}
+.home1:hover{
+    color: rgb(65, 144, 204);
+}
+
+.home2{
+    text-decoration: none;
+    cursor: pointer;
+    width: 65px;
+    height: 20px;
+    margin: 5px;
+    color: black;
+}
+.home2:hover{
+    color: rgb(65, 144, 204);
+}
+
+.home3{
+    text-decoration: none;
+    cursor: pointer;
+    width: 75px;
+    height: 20px;
+    margin: 5px;
+    color: black;
+}
+.home3:hover{
+    color: rgb(65, 144, 204);
+}
+
+.b1{
+    cursor: pointer;
+    font-size: smaller;
+}
+
+.b2{
+    cursor: pointer;
+    font-size: smaller;
+}
+
+.btn{
+    position: relative;
+    top: 14%;
+}
+
+
+
+/* 1st About Section */
+.about{
+    margin:auto;
+    font-size: large;
+    width: 80vw;
+    height: 80px;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.about img{
+    float: right;
+    width:550px;
+    height:450px;
+}
+
+.about h1{
+    position: relative;
+    top: 20%;
+}
+
+.about p{
+    position: relative;
+    top: 25%;
+}
+
+/* .bigbtn{
+    position: relative;
+    top: 30%;
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    background-color: rgb(132, 132, 252);
+} */
+
+.about a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 35%;
+}
+
+
+/* Platforms Section */
+.platforms{
+    margin: 25px auto;
+    width: 80vw;
+    height: 150px;
+    text-align: center;
+    justify-content: space-between;
+}
+.webmusic{
+    justify-content:space-between;
+}
+.webmusic img{
+    width: 60px;
+    height: 50px;
+}
+.platforms p{
+    margin-bottom: 40px;
+}
+
+
+/* Desctibe and genre Section */
+.describe{
+    margin: 30px auto;
+    width: 80vw;
+    height: 600px;
+    text-align: center;
+}
+.genretop{
+    height: 120px;
+}
+
+.genretop a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 15%;
+}
+
+.genre img{
+    width: 45px;
+}
+
+.genre{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sizing{
+    width: 350px;
+    height: 250px;
+}
+.genre a{
+    text-decoration: none;
+    color: black;
+}
+
+.genre1 a{
+    position: relative;
+    top: 10%;
+}
+.genre2 a{
+    position: relative;
+    top: 10%;
+}
+.genre3 a{
+    position: relative;
+    top: 10%;
+}
+.genre4 a{
+    position: relative;
+    top: 10%;
+}
+.genre5 a{
+
+    position: relative;
+    top: 10%;
+}
+.genre6 a{
+    position: relative;
+    top: 10%;
+}
+
+/* 2nd About Section */
+.about2{
+    margin:auto;
+    font-size: large;
+    width: 80vw;
+    height: 80px;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.about2 img{
+    float: left;
+    width:520px;
+    height:380px;
+}
+
+.about2 h2{
+    position: relative;
+    top: 20%;
+}
+
+.about2 p{
+    position: relative;
+    top: 20%;
+}
+.about2 h5{
+    position: relative;
+    top: 20%;
+}
+
+/* 3rd About Section */
+.about3{
+    margin: -50px auto;
+    font-size: large;
+    width: 80vw;
+    height: 80px;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.about3 img{
+    float: right;
+    width:520px;
+    height:450px;
+}
+
+.about3 h2{
+    position: relative;
+    top: 20%;
+}
+
+.about3 p{
+    position: relative;
+    top: 20%;
+}
+.about3 h5{
+    position: relative;
+    top: 20%;
+}
+
+/* 4th About Section */
+.about4{
+    margin: -50px auto;
+    font-size: large;
+    width: 80vw;
+    height: 80px;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.about4 img{
+    float: left;
+    width:520px;
+    height:380px;
+}
+
+.about4 h2{
+    position: relative;
+    top: 20%;
+}
+
+.about4 p{
+    position: relative;
+    top: 20%;
+}
+.about4 h5{
+    position: relative;
+    top: 20%;
+}
+
+/* Learning Music */
+.sizing2{
+    width: 250px;
+    height: 300px;
+    margin-top: 10px;
+}
+
+.learning{
+    margin: 30px auto;
+    width: 80vw;
+    height: 600px;
+    text-align: center;
+}
+.learntop{
+    height: 120px;
+}
+
+.learn{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: start;
+}
+.learn img{
+    width: 200px;
+    height: 250px;
+}
+
+.learntop a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 30%;
+}
+.learn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 70%;
+    left: 8%;
+}
+
+.learn1{
+    background-image:url(./Img/learn1.jpg);
+    background-size: 250px 300px;
+}
+.learn1 h3{
+    width: 200px;
+
+}
+.learn2{
+    background-image:url(./Img/learn2.jpg);
+    background-size: 250px 300px;
+}
+.learn2 h3{
+    width: 200px;
+
+}
+.learn3{
+ background-image:url(./Img/learn3.jpg);
+    background-size: 250px 300px;
+}
+.learn3 h3{
+    width: 200px;
+
+}
+.learn4{
+ background-image:url(./Img/learn4.jpg);
+    background-size: 250px 300px;
+}
+.learn4 h3{
+    width: 180px;
+}
+
+/* Get Started Section */
+.started{
+    background-color: rgb(7, 61, 118);
+    width: 98.9vw;
+    height: 350px;
+    margin: auto;
+    color: white;
+}
+
+.started h2{
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 35%;
+}
+
+.started h4{
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 48%;
+}
+
+.started a{
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 55%;
+    left: 45%;
+    text-decoration: none;
+    color: white;
+}
+
+/* Footer Section */
+.sizing3{
+    width: 300px;
+    height: 300px;
+    text-align: start;
+    justify-content: space-between;
+}
+
+.footer{
+    width: 80vw;
+    height: 300px;
+    margin:50px auto;
+}
+
+.footer1{
+    margin-top: 50px;
+}
+.footer2{
+    margin-top: 50px;
+    margin-left: 180px;
+}
+.footer3{
+    margin-top: 50px;
+    margin-left: 180px;
+}
+.footer4{
+    margin-top: 50px;
+    margin-left: 180px;
+}
+.footer5{
+    margin-top: 50px;
+
+}
+.footer header a{
+    text-decoration: none;
+    color: rgb(69, 69, 69);
+    display: block;
+    margin: 20px 0px;
+}
+.footer header a:hover{
+    color: rgb(0, 0, 33);
+}
+
+/* Sub Footer Section */
+.subfooter{
+    border:0.1px solid rgb(225, 225, 225);
+    width: 98.9vw;
+    height: 50px;
+    background-color: rgb(225, 225, 225);
+    font-size: smaller;
+}
+
+.subfooter1{
+    text-align: center;
+    margin:10px auto;
+    width: 600px;
+    height: 20px;
+    justify-content:space-evenly;
+}
+.subfooter1 img{
+    width: 18px;
+}
+.subfooter1 a{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.yt img{
+    width: 29px;
+}
+.git img{
+    width: 20px;
+}
+.subfooter a:hover{
+    color: black;
+}
+
+/* Top Button Section */
+.topbtn img{
+    width: 40px;
+    height: 40px;
+}
+.topbtn{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: fixed;
+    top: 94%;
+    left: 96.5%;
+}
