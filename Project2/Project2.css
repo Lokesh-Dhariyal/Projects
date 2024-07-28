@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playwrite+ZA:wght@100..400&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+   font-family: "Montserrat Alternates", sans-serif;
+   font-size: 1.2rem;
+}
+
+.main{
+width: 100vw;
+height: 100vh;
+background: linear-gradient(to right, rgb(66, 66, 66),rgb(167, 167, 167));
+display: flex;
+justify-content: space-evenly;
+flex-direction: row;
+}
+
+.words{
+    margin: auto;
+    text-align: center;
+    color: white;
+    flex-basis: 30%;
+}
+.words h1{
+    font-size: 3rem;
+}
+.words p{
+    color: #ddd;
+    margin-top: 25px;
+}
+
+.gallery{
+    flex-basis: 60%;
+    height: 70vh;
+    margin: auto;
+    display: grid;
+    gap: 5px;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+.box1{
+    grid-area:1/1/3/2 ;
+    background-image: url(./Img/harmonium.jpg);
+    background-size: cover;
+    background-position: 30% 1%;
+    transition: all 1s ease-in-out;
+    background-color: #222;
+   background-blend-mode: luminosity;
+}
+.box1:hover{
+    background-color: #999;
+    background-blend-mode: normal;
+    background-position: right;
+    cursor: pointer;
+    box-shadow: 0 0 10px #222;
+}
+.box2{
+   grid-area:1/2/2/4 ;
+   background-image: url(./Img/sitar.jpg);
+   background-size: cover;
+   background-position: 1% 40%;
+   transition: all 1s ease-in-out;
+   background-color: #222;
+   background-blend-mode: luminosity;
+}
+.box2:hover{
+    background-color: #999;
+    background-blend-mode: normal;
+    background-position: 1% 70%;
+    cursor: pointer;
+    box-shadow: 0 0 10px #222;
+}
+.box3{
+    grid-area: 2/2/2/2;
+    transition: all 1s ease-in-out;
+    background-image: url(./Img/tabla.jpg);
+    background-size: cover;
+    background-position: 1% 10%;
+    background-color: #222;
+   background-blend-mode: luminosity;
+}
+.box3:hover{
+    background-color: #999;
+    background-blend-mode: normal;
+    background-position: 1% 60%;
+    cursor: pointer;
+    box-shadow: 0 0 10px #222;
+}
+.box4{
+    grid-area: 2/3/4/3;
+    transition: all 1s ease-in-out;
+     background-image: url(./Img/guitar.jpg);
+    background-size: cover;
+    background-position: 1% 40%;
+    background-color: #222;
+   background-blend-mode: luminosity;
+}
+.box4:hover{
+    background-color: #999;
+    background-blend-mode: normal;
+    background-position: bottom;
+    cursor: pointer;
+    box-shadow: 0 0 10px #222;
+}
+.box5{
+    grid-area: 3/1/3/3;
+    transition: all 1s ease-in-out;
+     background-image: url(./Img/bass.jpg);
+    background-size: cover;
+    background-position: 1% 20%;
+    background-color: #222;
+   background-blend-mode: luminosity;
+}
+.box5:hover{
+    background-color: #999;
+    background-blend-mode: normal;
+    background-position: 2% 70%;
+    cursor: pointer;
+    box-shadow: 0 0 10px #222;
+}
+.box6{
+    grid-area:4/1/4/1;
+    transition: all 1s ease-in-out;
+     background-image: url(./Img/dholak.jpg);
+    background-size: cover;
+    background-position: top;
+    background-color: #222;
+   background-blend-mode: luminosity;
+}
+.box6:hover{
+    background-color: #999;
+    background-blend-mode: normal;
+    background-position: bottom;
+    cursor: pointer;
+    box-shadow: 0 0 10px #222;
+}
+.box7{
+    grid-area: 4/2/4/4;
+    transition: all 1s ease-in-out;
+     background-image: url(./Img/piano.jpg);
+    background-size: cover;
+    background-position: 10% 30%;
+    background-color: #222;
+   background-blend-mode: luminosity;
+}
+.box7:hover{
+    background-color: #999;
+    background-blend-mode: normal;
+    background-position:10% 50%;
+    cursor: pointer;
+    box-shadow: 0 0 10px #222;
+}
+
+/* Media Quaries */
+
+@media screen and (max-width: 1024px) {
+    .main{
+        flex-direction: column;
+        padding-block: 20px;
+    }
+    .words{
+        margin-bottom: 20px;
+    }
+    .gallery{
+        width: 100%;
+        grid-auto-rows: 220px;
+        padding-inline: 10px;
+    }
+    .box{
+        grid-row: span 1;
+        grid-column: span 3;
+        height: 200px;
+    }
+}
